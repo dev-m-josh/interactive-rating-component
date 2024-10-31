@@ -1,0 +1,103 @@
+
+
+.App{
+    background-color: hsl(213, 19%, 18%);
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: OverPass, sans-serif;
+}
+
+p{
+    font-size: 15px;
+}
+
+.rating{
+    width: 100%;
+}
+
+.rating span{
+    background-color: hsl(216, 8%, 36%);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.rating h1{
+    color: hsl(0, 0%, 100%);
+}
+
+.rating p{
+    color: hsl(217, 12%, 63%);
+}
+
+.rate{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate button{
+    background-color: hsl(217, 12%, 63%);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 11px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: hsl(213, 19%, 18%);
+}
+
+.rate button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit{
+    color: hsl(213, 19%, 18%);
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.submit:hover{
+    background: white;
+}
+
+.response{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.response h3{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 5%, 31%);
+    padding: 1px 15px;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.response h1{
+    color: hsl(0, 0%, 100%);
+}
+
+.response p{
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
+
+.clicked{
+    background-color: white;
+}
